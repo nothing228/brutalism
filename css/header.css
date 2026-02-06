@@ -89,3 +89,42 @@
   max-width: 350px;
   width: 100%;
 }
+
+@media screen and (max-width: 992px) {
+  .header__wrap {
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-around;
+  }
+  .header__nav-list {
+    order: 10;
+  }
+}
+
+@media screen and (max-width:768px){
+    .header__nav{
+        background:var(--bg);
+    }
+    
+    .header__wrap{
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+
+    .header__nav-list{
+        order: unset;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .banner{
+        height: 100svh;
+        background: url(../img/bg.png) no repeat bottom right / cover;
+    }
+
+    .banner__desc{
+        flex-direction: column;
+        flex-wrap: wrap-reverse;
+        text-align: center  ;
+    }
+}
