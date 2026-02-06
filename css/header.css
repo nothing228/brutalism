@@ -1,0 +1,91 @@
+.header {
+  height: 100svh;
+  background: url(../img/bg.png) no-repeat bottom right / cover;
+  display: flex;
+  flex-direction: column;
+}
+
+.header__nav {
+  padding: 22px 0;
+  backdrop-filter: blur(10px);
+  background: #ffffff0a;
+}
+
+.header__wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__nav-logo {
+  font-family: "Fustat", sans-serif;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 24px;
+  color: var(--white);
+  transition: 0, 3s;
+}
+
+.header__nav-list {
+  display: flex;
+  gap: 60px;
+  align-items: center;
+}
+
+.header__nav-list_item-link,
+.header__nav-tel {
+  font-family: var(--ff);
+  font-weight: 400;
+  line-height: 90%;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: var(--white);
+  transition: 0.3s;
+}
+
+.header__nav-list_item-link:hover,
+.header__nav-tel:hover,
+.header__nav-logo:hover {
+  color: var(--gray);
+}
+
+.banner {
+  flex: 2 0 auto;
+}
+
+.banner__wrap {
+  display: flex;
+  align-items: center;
+}
+
+.banner__content {
+  max-width: 706px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.banner__title {
+  font-family: var(--ff);
+  font-weight: 300;
+  font-size: 64px;
+  line-height: 90%;
+  color: var(--white);
+}
+
+.banner__desc {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.banner__desc-slogan {
+  font-family: var(--ff);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  color: var(--gray);
+  max-width: 350px;
+  width: 100%;
+}
