@@ -29,3 +29,24 @@ body {
   margin: 0 auto;
   padding: 0 15px;
 }
+
+button {
+  background: none;
+}
+
+.subTitle {
+  font-family: var(--ff);
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 90%;
+  color: var(--white);
+}
+
+.title {
+  font-family: var(--ff);
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 48px;
+  line-height: 90%;
+  color: var(--white);
+}
